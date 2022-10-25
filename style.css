@@ -1,0 +1,70 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+button,
+a {
+    color:inherit;
+    background-color: inherit;
+    border:none;
+}
+
+body{
+    background-color: #EFF1F1;
+    color:#383939;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.app{
+    border:2px solid #383939;
+    width:700px;
+  
+    margin:0 auto;
+}
+
+.heading{
+    font-family: 'Josefin Sans', sans-serif;
+    padding:20px;
+    text-align: center;
+}
+
+.inputs{
+    background-color: white;
+    padding:40px;
+    border-bottom:2px solid #383939  
+}
+
+.todo-input{
+    padding:20px;
+    margin-right:10px;
+    width:490px;
+    border:2px solid #383939
+}
+
+.todo-btn{
+    background-color:#383939;
+    color:white;
+    padding:20px;
+    font-weight: bold;
+}
+
+.todos{
+    padding:40px;
+}
+
+.todo-heading{
+    font-size:20px;
+    padding-bottom:20px;
+}
+
+.task{
+    padding:10px;  
+    list-style-type: none;
+}
+
+.task:nth-of-type(odd){
+    background-color: #383939;
+    color:white;
+}   

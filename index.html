@@ -6,22 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>To Do List</title>
     <script src="app.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-    <h1 class="heading">A To Do List application using HTML, CSS & Javascript</h1>
+    <h1 class="heading"> A To Do List application using HTML, CSS & Javascript </h1>
     
     <div class="app">
         <div class="inputs">
-        <input class="todo" type="text" placeholder="Add item to list...">
-        <button class="todo-btn">Add To Do</button>
+        <input class="todo-input" type="text" placeholder="Add a task for the day...">
+        <input type="submit" value="Add To Do" class="todo-btn">
         </div>
         <div class="todos">
-            <p>To do:</p>
-            <ul class="list-wrapper">
-               
-         </ul>
-
+            <p class="todo-heading">To do:</p>
+            <ul class="list-wrapper"></ul>
         </div>
     </div>
 
