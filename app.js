@@ -14,7 +14,7 @@ function addToDo(){
     newItem.classList.add('task');
     newItem.textContent = toDo.textContent;
     list.appendChild(newItem);
-    toDo.textContent = '';
+    toDo.value = '';
 }
 
 
