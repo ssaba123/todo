@@ -20,7 +20,7 @@ body{
 .app{
     border:2px solid #383939;
     width:700px;
-  
+    position: relative;
     margin:0 auto;
 }
 
@@ -68,3 +68,18 @@ body{
     background-color: #383939;
     color:white;
 }   
+
+.dark-mode{
+    width:50px;
+    position: absolute;
+    padding:10px;
+    padding-bottom:7px;
+    top:-2px;
+    left:-52px;
+    border:2px solid #383939;
+    border-right: none;
+}
+
+.dark-mode img{
+    width:100%;
+}
